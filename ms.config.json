@@ -1,0 +1,32 @@
+{
+  "appDisplayName": "Production Exploding App",
+  "appId": "35dee95b-aac9-4f87-9873-4ba4eab3d5da",
+  "buildEntryPoint": "index.html",
+  "buildPath": "dist",
+  "connectionReferences": {
+    "cca0a465-fb34-4559-890c-6311f5032b7d": {
+      "dataSets": {
+        "https://littelfuse.sharepoint.com/teams/EBULeanLipa": {
+          "dataSources": {
+            "partversions_416f3b14": {
+              "tableName": "PartVersions-416f3b14"
+            },
+            "summarybom_416f3b14": {
+              "tableName": "SummaryBOM-416f3b14"
+            }
+          }
+        }
+      },
+      "dataSources": [
+        "partversions_416f3b14",
+        "summarybom_416f3b14"
+      ],
+      "displayName": "SharePoint",
+      "id": "/providers/Microsoft.PowerApps/apis/shared_sharepointonline"
+    }
+  },
+  "description": "Explodes a part number and Pversion from the Summary BOM into Production material lines: Part No., Qty. and Unit of Measure per material type.",
+  "environmentId": "5d7af1b9-ee43-ec26-bd36-6eaac754fa00",
+  "repositoryId": "f2a6a75b-e306-474f-899b-eecd03a95861",
+  "version": "0.0"
+}
